@@ -1,174 +1,175 @@
-
+&c &a &f-1965253954
 # <------- Permission Messages -------> #
-permission: "&cNie masz wystarczajacych uprawnien do uzycia tej komendy!"
+permission: "&cBrak uprawnien!"
 blockedWorld: "&cZarzadzanie gildiami jest zablokowane na tym swiecie!"
 # <------- Rank Messages -------> #
-rankAddressAttacker: "&7Wykryto ten sam &cadres&7, punkty nie zostaja naliczone!"
-rankAddressVictim: "&7Wykryto ten sam &cadres&7, punkty nie zostaja odebrane!"
-rankLastVictimV: "&7Ostatnio zostales zabity przez tego samego gracza, punkty nie zostaja odebrane!"
-rankLastVictimA: "&7Ostatnio zabiles tego samego gracza, punkty nie zostaja dodane!"
-rankLastAttackerV: "&7Ostatnio zostales zabity przez tego samego gracza, punkty nie zostaja odebrane!"
-rankLastAttackerA: "&7Ten gracz byl ostatnio zabity przez Ciebie, punkty nie zostaja dodane!"
+rankAddressAttacker: "&cWykryto ten sam &fadres&c, punkty nie zostaja naliczone!"
+rankAddressVictim: "&cWykryto ten sam &fadres&c, punkty nie zostaja odebrane!"
+rankLastVictimV: "&cOstatnio zostales zabity przez tego samego gracza, punkty nie zostaja odebrane!"
+rankLastVictimA: "&cOstatnio zabiles tego samego gracza, punkty nie zostaja dodane!"
+rankLastAttackerV: "&cOstatnio zostales zabity przez tego samego gracza, punkty nie zostaja odebrane!"
+rankLastAttackerA: "&cTen gracz byl ostatnio zabity przez Ciebie, punkty nie zostaja dodane!"
 # Available variables: {ATTACKER}, {VICTIM}, {-}, {+}, {POINTS}, {VTAG}, {ATAG}
-rankDeathMessage: "{ATAG}&b{ATTACKER} &7(&b+{+}&7) zabil {VTAG}&b{VICTIM} &7(&b-{-}&7)"
+rankDeathMessage: "&c{VTAG}&c{VICTIM} &c(-{-}) zostal zabity przez &f{ATAG}&f{ATTACKER} (+{+})"
 # <------- Rank Messages -------> #
 # Available variables: {PLAYER}, {REASON}, {DATE}, {NEWLINE}
-banMessage: "&7Zostales zbanowany do &b{DATE}{NEWLINE}{NEWLINE}&7za: &b{REASON}"
+banMessage: "&cZostales zbanowany do {DATE}{NEWLINE}{NEWLINE}&cPowod: &c{REASON}"
 # <------- Notification Bar Messages -------> #
 # Available variables: {PLAYER}
-notificationMember: "&7Gracz &c{PLAYER} &7wkroczyl na teren &cTwojej &7gildii!"
+notificationMember: "&cIntruz na terenie twojej gildii!"
 # Available variables: {GUILD}, {TAG}
-notificationOther: "&7Wkroczyles na teren gildii &c{TAG}&7!"
+notificationOther: "&cWkroczyles na teren gildii &f{TAG}"
 # <------- Region Messages -------> #
 # Available variables: {GUILD}, {TAG}
-regionEnter: "&7Wkroczyles na teren gildii &c{TAG}&7!"
+regionEnter: "&cWkroczyles na teren gildii &f{TAG}"
 # Available variables: {GUILD}, {TAG}
-regionLeave: "&7Opuszczono teren gildii &c{TAG}&7!"
+regionLeave: "&cOpuszczono teren gildii &f{TAG}"
 regionOther: "&cTen teren nalezy do innej gildii!"
 regionCenter: "&cNie mozesz zniszczyc srodka swojej gildii!"
 # Available variables: {TIME}
-regionExplode: "&cBudowanie na terenie gildii zablokowane na czas &4{TIME} sekund&c!"
+regionExplode: "&cBudowanie na terenie gildii zablokowane na czas &f{TIME} &csekund!"
 # Available variables: {TIME}
-regionExplodeInteract: "&cNie mozna budowac jeszcze przez &4{TIME} sekund&c!"
+regionExplodeInteract: "&cNie mozna budowac jeszcze przez &f{TIME} &csekund!"
 regionCommand: "&cTej komendy nie mozna uzyc na terenie innej gildii!"
 # <------- Broadcast Messages -------> #
 # Available variables: {PLAYER}, {GUILD}, {TAG}
-broadcastCreate: "&a{PLAYER} &7zalozyl gildie o nazwie &a{GUILD} &7i tagu &a{TAG}&7!"
+broadcastCreate: "&aGildia {GUILD} zostala zalozona przez &f{PLAYER}"
 # Available variables: {PLAYER}, {GUILD}, {TAG}
-broadcastDelete: "&c{PLAYER} &7rozwiazal gildie &c{TAG}&7!"
+broadcastDelete: "&cGildia {GUILD} zostala usunieta przez &f{PLAYER}"
 # Available variables: {PLAYER}, {GUILD}, {TAG}
-broadcastJoin: "&a{PLAYER} &7dolaczyl do gildii &a{TAG}&7!"
+broadcastJoin: "&a{PLAYER} &adolaczyl do gildii &f{TAG}"
 # Available variables: {PLAYER}, {GUILD}, {TAG}
-broadcastLeave: "&c{PLAYER} &7opuscil gildie &c{TAG}&7!"
+broadcastLeave: "&c{PLAYER} &copuscil gildie &f{TAG}"
 # Available variables: {PLAYER}, {GUILD}, {TAG}
-broadcastKick: "&c{PLAYER} &7zostal &cwyrzucony &7z gildii &c{TAG}&7!"
+broadcastKick: "&c{PLAYER} zostal wyrzucony z gildii &f{TAG}"
 # Available variables: {GUILD}, {TAG}, {REASON}, {TIME}
-broadcastBan: "&7Gildia &c{TAG}&7 zostala zbanowana za &c{REASON}&7, gratulacje!"
+broadcastBan: "&4Gildia {TAG} zostala zbanowana za &f{REASON}"
 # Available variables: {GUILD}, {TAG}
-broadcastUnban: "&7Gildia &a{TAG}&7 zostala &aodbanowana&7!"
+broadcastUnban: "&2Gildia {TAG} zostala odbanowana!"
 # Available variables: {GUILD}, {TAG}, {X}, {Y}, {Z}
-broadcastValidity: "&7Gildia &b{TAG} &7wygasla&b! &7Jej baza znajdowala sie na x: &b{X} &7y: &b{Y} &7z: &b{Z}&7!"
+broadcastValidity: "&cGildia {TAG} wygasla! Jej baza znajdowala sie na x: &f{X} &cy: &f{Y} &cz: &f{Z}"
 # Available variables: {WINNER}, {LOSER}
-broadcastWar: "&7Gildia &4{WINNER}&7 podblila gildie &4{LOSER}&7!!"
+broadcastWar: "&eGildia {WINNER} podblila gildie &f{LOSER}"
 # <------- Help Messages -------> #
 helpList: 
-- "&7---------------------&8[ &aGildie &8]&7---------------------"
-- "&a/zaloz [tag] [nazwa] &8- &7Tworzy gildie"
-- "&a/zapros [gracz] &8- &7Zaprasza gracza do gildii"
-- "&a/dolacz [tag] &8- &7Przyjmuje zaproszenie do gildii"
-- "&a/info [tag] &8- &7Informacje o danej gildii"
-- "&a/baza &8- &7Teleportuje do bazy gildii"
-- "&a/powieksz &8- &7Powieksza teren gildii"
-- "&a/przedluz &8- &7Przedluza waznosc gildii"
-- "&a/lider [gracz] &8- &7Oddaje zalozyciela gildii"
-- "&a/zastepca [gracz] &8- &7Nadaje zastepce gildii"
-- "&a/sojusz [tag] &8- &7Pozwala nawiazac sojusz"
-- "&a/opusc &8- &7Opuszcza gildie"
-- "&a/wyrzuc [gracz] &8- &7Wyrzuca gracza z gildii"
-- "&a/rozwiaz [tag] &8- &7Rozwiazuje sojusz"
-- "&a/usun &8- &7Usuwa gildie"
+- " "
+- "&6&l>> KOMENDY GILDII <<"
+- "&6/zaloz [tag] [nazwa] &f- tworzenie gildii"
+- "&6/zapros [gracz] &f- zapraszanie do gildii"
+- "&6/dolacz [tag] &f- dolaczanie do gildii"
+- "&6/info [tag] &f- informacje o gildii"
+- "&6/baza &f- teleportacja do gildii"
+- "&6/przedluz &f- przedluzenie waznosci gildii"
+- "&6/lider [gracz] &f- zmiana lidera gildii"
+- "&6/zastepca [gracz] &f- zmiana zastepcy lidera"
+- "&6/sojusz [tag] &f- zaproszenie do sojuszu"
+- "&6/opusc &f- opuszczenie gildii"
+- "&6/wyrzuc [gracz] &f- wyrzucenie gracza z gildii"
+- "&6/rozwiaz [tag] &f- rozwiazanie gildii"
+- "&6/usun &f- usuwanie gildii"
 # <------- Player Info Messages -------> #
-playerInfoExists: "&cTaki gracz nigdy nie byl na serwerze!"
+playerInfoExists: "&cNie ma takiego gracza!"
 # Available variables: {PLAYER}, {GUILD}, {TAG}, {POINTS}, {KILLS}, {DEATHS}, {RANK}
 playerInfoList: 
-- "&8--------------.-----------------"
-- "&7Gracz: &a{PLAYER}"
-- "&7Gildia: &a{TAG}"
-- "&7Miejsce: &a{RANK} &8(&a{POINTS}&8)"
-- "&7Zabojstwa: &a{KILLS}"
-- "&7Smierci: &a{DEATHS}"
-- "&8-------------.------------------"
+- " "
+- "&6&l>> INFORMACJE O GRACZU {PLAYER} <<
+- "&6Gildia: &f{TAG}"
+- "&6Ranking: &f{RANK} ({POINTS})"
+- "&6Zabojstwa: &f{KILLS}"
+- "&6Smierci: &f{DEATHS}"
 # <------- Info Messages -------> #
 infoTag: "&cPodaj tag gildii!"
-infoExists: "&cGildia o takim tagu nie istnieje!"
+infoExists: "&cNie ma takiej gildii!"
 # Available variables: {GUILD}, {TAG}, {OWNER}, {MEMBERS}, 
 # {POINTS}, {KILLS}, {DEATHS}, {ALLIES}, {RANK}, {VALIDITY},
 # {LIVES}
 infoList: 
-- "&8-------------------------------"
-- "&7Gildia: &c{GUILD} &8[&c{TAG}&8]"
-- "&7Zalozyciel: &c{OWNER}"
-- "&7Punkty: &c{POINTS} &8[&c{RANK}&8]"
-- "&7Zycia: &4{LIVES}"
-- "&7Waznosc: &c{VALIDITY}"
-- "&7Czlonkowie: &7{MEMBERS}"
-- "&7Sojusze: &c{ALLIES}"
-- "&8-------------------------------"
+- " "
+- "&6&l>> INFORMACJE O GILDII {GUILD} <<"
+- "&6Tag: &f{TAG}"
+- "&6Lider: &f{OWNER}"
+- "&6Ranking: &f{RANK} ({POINTS})"
+- "&6Zycia: &f{LIVES}"
+- "&6Waznosc: &f{VALIDITY}"
+- "&6Czlonkowie: &f{MEMBERS}"
+- "&6Sojusze: &f{ALLIES}"
 # <------- Top Messages -------> #
 # {GTOP-<pozycja>} - Gildia na podanej pozycji w rankingu
 topList: 
-- "&8----------{ &cTOP 10 &8}----------"
-- "&71&8. &c{GTOP-1}"
-- "&72&8. &c{GTOP-2}"
-- "&73&8. &c{GTOP-3}"
-- "&74&8. &c{GTOP-4}"
-- "&75&8. &c{GTOP-5}"
-- "&76&8. &c{GTOP-6}"
-- "&77&8. &c{GTOP-7}"
-- "&78&8. &c{GTOP-8}"
-- "&79&8. &c{GTOP-9}"
-- "&710&8. &c{GTOP-10}"
+- " "
+- "&6&l>> TOP 10 GILDII <<"
+- "&61. &f{GTOP-1}"
+- "&62. &f{GTOP-2}"
+- "&63. &f{GTOP-3}"
+- "&64. &f{GTOP-4}"
+- "&65. &f{GTOP-5}"
+- "&66. &f{GTOP-6}"
+- "&67. &f{GTOP-7}"
+- "&68. &f{GTOP-8}"
+- "&69. &f{GTOP-9}"
+- "&610. &f{GTOP-10}"
 # <------- Ranking Messages -------> #
 # {PTOP-<pozycja>} - Gracz na podanej pozycji w rankingu
 rankingList: 
-- "&8----------{ &cTOP 10 Graczy &8}----------"
-- "&71&8. &c{PTOP-1}"
-- "&72&8. &c{PTOP-2}"
-- "&73&8. &c{PTOP-3}"
-- "&74&8. &c{PTOP-4}"
-- "&75&8. &c{PTOP-5}"
-- "&76&8. &c{PTOP-6}"
-- "&77&8. &c{PTOP-7}"
-- "&78&8. &c{PTOP-8}"
-- "&79&8. &c{PTOP-9}"
-- "&710&8. &c{PTOP-10}"
+- " "
+- "&6&l>> TOP 10 GRACZY <<"
+- "&61. &f{PTOP-1}"
+- "&62. &f{PTOP-2}"
+- "&63. &f{PTOP-3}"
+- "&64. &f{PTOP-4}"
+- "&65. &f{PTOP-5}"
+- "&66. &f{PTOP-6}"
+- "&67. &f{PTOP-7}"
+- "&68. &f{PTOP-8}"
+- "&69. &f{PTOP-9}"
+- "&610. &f{PTOP-10}"
 # <------- Create Guild Messages -------> #
 createHasGuild: "&cMasz juz gildie!"
 createName: "&cPodaj nazwe gildii!"
 createTag: "&cPodaj tag gildii!"
 # Available variables: {LENGTH}
-createTagLength: "&7Tag nie moze byc dluzszy niz &c{LENGTH} litery&7!"
+createTagLength: "&cTag nie moze byc dluzszy niz {LENGTH}"
 # Available variables: {LENGTH}
-createNameLength: "&cNazwa nie moze byc dluzsza niz &c{LENGTH} litery&7!"
+createNameLength: "&cNazwa nie moze byc dluzsza niz &{LENGTH}"
 # Available variables: {LENGTH}
-createTagMinLength: "&7Tag nie moze byc krotszy niz &c{LENGTH} litery&7!"
+createTagMinLength: "&cTag nie moze byc krotszy niz {LENGTH}"
 # Available variables: {LENGTH}
-createNameMinLength: "&cNazwa nie moze byc krotsza niz &c{LENGTH} litery&7!"
+createNameMinLength: "&cNazwa nie moze byc krotsza niz {LENGTH}"
 createOLTag: "&cTag gildii moze zawierac tylko litery!"
 createOLName: "&cNazwa gildii moze zawierac tylko litery!"
 createMore: "&cNazwa gildi nie moze zawierac spacji!"
 createNameExists: "&cJest juz gildia z taka nazwa!"
 createTagExists: "&cJest juz gildia z takim tagiem!"
 # Available variables: {DISTANCE}
-createSpawn: "&7Jestes zbyt blisko spawnu! Minimalna odleglosc to &c{DISTANCE}"
+createSpawn: "&cJestes zbyt blisko spawnu! Minimalna odleglosc to {DISTANCE}"
 createIsNear: "&cW poblizu znajduje sie jakas gildia, poszukaj innego miejsca!"
 # Available variables: {ITEM}, {ITEMS}
-createItems: "&cNie masz wszystkich przedmiotow! Obecnie brakuje Ci &7{ITEM} &cz &7{ITEMS}"
+createItems: "&cNie masz wszystkich przedmiotow! Obecnie brakuje Ci {ITEM} z {ITEMS}"
 # Available variables: {PLAYER}, {GUILD}, {TAG}
-createGuild: "&7Zalozono gildie o nazwie &a{GUILD} &7i tagu &a{TAG}&7!"
+createGuild: "&aZalozyles gildie o nazwie {GUILD} i tagu {TAG}"
 # <------- Delete Guild Messages -------> #
 deleteHasNotGuild: "&cNie masz gildii!"
-deleteIsNotOwner: "&cNie jestes zalozycielem gildii!"
-deleteConfirm: "&7Aby potwierdzic usuniecie gildii, wpisz: &c/potwierdz"
+deleteIsNotOwner: "&cNie jestes liderem gildii!"
+deleteConfirm: "&cAby potwierdzic usuniecie gildii, wpisz: /potwierdz"
 deleteToConfirm: "&cNie masz zadnych dzialan do potwierdzenia!"
 deleteSomeoneIsNear: "&cNie mozesz usunac gildii, ktos jest w poblizu!"
 # Available variables: {GUILD}, {TAG}
-deleteSuccessful: "&7Pomyslnie &cusunieto &7gildie!"
+deleteSuccessful: "&aPomyslnie usunieto gildie!"
 # <------- Invite Messages -------> #
 inviteHasNotGuild: "&cNie masz gildii!"
-inviteIsNotOwner: "&cNie jestes zalozycielem gildii!"
+inviteIsNotOwner: "&cNie jestes liderem gildii!"
 invitePlayer: "&cPodaj gracza!"
 invitePlayerExists: "&cNie ma takiego gracza na serwerze!"
 # Available variables: {AMOUNT}
-inviteAmount: "&7Osiagnieto juz &cmaksymalna &7liczbe czlonkow w gildii! (&c{AMOUNT})"
+inviteAmount: "&cOsiagnieto juz maksymalna liczbe czlonkow w gildii! ({AMOUNT})"
 inviteHasGuild: "&cTen gracz ma juz gildie!"
 inviteCancelled: "&cCofnieto zaproszenie!"
 # Available variables: {OWNER}, {GUILD}, {TAG}
-inviteCancelledToInvited: "&7Zaproszenie do gildii &c{GUILD} &7zostalo wycofane!"
+inviteCancelledToInvited: "&cZaproszenie do gildii {GUILD} zostalo cofniete!"
 # Available variables: {PLAYER}
-inviteToOwner: "&7Gracz &a{PLAYER} &7zostal zaproszony do gildii!"
+inviteToOwner: "&aGracz {PLAYER} zostal zaproszony do gildii!"
 # Available variables: {OWNER}, {GUILD}, {TAG}
-inviteToInvited: "&aOtrzymano zaproszenie do gildii &7{TAG}&a!"
+inviteToInvited: "&aOtrzymano zaproszenie do gildii {TAG}"
 # <------- Invite Messages -------> #
 joinHasNotInvitation: "&cNie masz zaproszenia do gildii!"
 joinHasNotInvitationTo: "&cNie otrzymales zaproszenia do tej gildii!"
@@ -176,137 +177,137 @@ joinHasGuild: "&cMasz juz gildie!"
 joinTagExists: "&cNie ma gildii o takim tagu!"
 # Available variables: {GUILDS}
 joinInvitationList: 
-- "&7Otrzymano zaproszenia od gildii: &a{GUILDS}"
-- "&7Wpisz &a/dolacz [tag] &7aby dolaczyc do wybranej gildii"
+- "&aOtrzymano zaproszenia od gildii: {GUILDS}"
+- "&aWpisz &f/dolacz [tag] &aaby dolaczyc do wybranej gildii"
 # Available variables: {ITEM}, {ITEMS}
-joinItems: "&cNie masz wszystkich przedmiotow! Obecnie brakuje Ci &7{ITEM} &cz &7{ITEMS}"
+joinItems: "&cNie masz wszystkich przedmiotow! Obecnie brakuje Ci {ITEM} z {ITEMS}"
 # Available variables: {GUILD}, {TAG}
-joinToMember: "&aDolaczyles do gildii &7{GUILD}"
+joinToMember: "&aDolaczyles do gildii {GUILD}"
 # Available variables: {PLAYER}
-joinToOwner: "&a{PLAYER} &7dolaczyl do &aTwojej &7gildii!"
+joinToOwner: "&a{PLAYER} dolaczyl do Twojej gildii!"
 # <------- Leave Messages -------> #
 leaveHasNotGuild: "&cNie masz gildii!"
-leaveIsOwner: "&cZalozyciel &7nie moze opuscic gildii!"
+leaveIsOwner: "&cLider nie moze opuscic gildii!"
 # Available variables: {GUILDS}, {TAG}
-leaveToUser: "&7Opusciles gildie &a{GUILD}&7!"
+leaveToUser: "&cOpusciles gildie {GUILD}"
 # <------- Kick Messages -------> #
 kickHasNotGuild: "&cNie masz gildii!"
-kickIsNotOwner: "&cNie jestes zalozycielem gildii!"
+kickIsNotOwner: "&cNie jestes liderem gildii!"
 kickPlayer: "&cPodaj gracza!"
 kickToHasNotGuild: "&cTen gracz nie ma gildii!"
 kickOtherGuild: "&cTen gracz nie jest w Twojej gildii!"
-kickOwner: "&cNie mozna wyrzucic zalozyciela!"
+kickOwner: "&cNie mozna wyrzucic lidera!"
 # Available variables: {PLAYER}
-kickToOwner: "&c{PLAYER} &7zostal wyrzucony z gildii!"
+kickToOwner: "&c{PLAYER} zostal wyrzucony z gildii!"
 # Available variables: {GUILD}
 kickToPlayer: "&cZostales wyrzucony z gildii!"
 # <------- Enlarge Messages -------> #
 enlargeHasNotGuild: "&cNie masz gildii!"
-enlargeIsNotOwner: "&cNie jestes zalozycielem gildii!"
+enlargeIsNotOwner: "&cNie jestes liderem gildii!"
 enlargeMaxSize: "&cOsiagnieto juz maksymalny rozmiar terenu!"
 enlargeIsNear: "&cW poblizu znajduje sie jakas gildia, nie mozesz powiekszyc terenu!"
 # Available variables: {ITEM}
-enlargeItem: "&7Nie masz wystarczajacej liczby przedmiotow! Potrzebujesz &c{ITEM}"
+enlargeItem: "&cNie masz wystarczajacej liczby przedmiotow! Potrzebujesz {ITEM}"
 # Available variables: {SIZE}, {LEVEL}
-enlargeDone: "&7Teren &aTwojej &7gildii zostal powiekszony i jego wielkosc wynosi teraz &a{SIZE} &7(poz.&a{LEVEL}&7)"
+enlargeDone: "&aTeren Twojej gildii zostal powiekszony i jego wielkosc wynosi teraz {SIZE} (poz.{LEVEL})"
 # <------- Base Messages -------> #
 baseHasNotGuild: "&cNie masz gildii!"
 baseHasNotRegion: "&cTwoja gildia nie posiada terenu!"
 baseHasNotCenter: "&cTwoja gildia nie posiada srodka regionu!"
 baseIsTeleportation: "&cWlasnie sie teleportujesz!"
 # Available variables: {ITEM}, {ITEMS}
-baseItems: "&cNie masz wszystkich przedmiotow! Obecnie brakuje Ci &7{ITEM} &cz &7{ITEMS}"
-baseDontMove: "&7Nie ruszaj sie przez &c{TIME} &7sekund!"
+baseItems: "&cNie masz wszystkich przedmiotow! Obecnie brakuje Ci {ITEM} z {ITEMS}"
+baseDontMove: "&cNie ruszaj sie przez {TIME} sekund!"
 baseMove: "&cRuszyles sie, teleportacja przerwana!"
-baseTeleport: "&7Teleportacja ..."
+baseTeleport: "&aTeleportacja ..."
 # <------- Ally Messages -------> #
 allyHasNotGuild: "&cNie masz gildii!"
-allyIsNotOwner: "&cNie jestes zalozycielem gildii!"
-allyHasNotInvitation: "&7Aby zaprosic gildie do sojuszy wpisz &c/sojusz [tag]"
+allyIsNotOwner: "&cNie jestes liderem gildii!"
+allyHasNotInvitation: "&cAby zaprosic gildie do sojuszy wpisz &f/sojusz [tag]"
 # Available variables: {GUILDS}
 allyInvitationList: 
-- "&7Otrzymano zaproszenia od gildii: &a{GUILDS}"
-- "&7Aby zaakceptowac uzyj &a/sojusz [tag]"
+- "&aOtrzymano zaproszenie do sojuszu od gildii: {GUILDS}"
+- "&aWpisz /sojusz [tag] &aaby dolaczyc do sojuszu"
 # Available variables: {TAG}
-allyGuildExists: "&7Gildia o tagu &c{TAG} &7nie istnieje!"
+allyGuildExists: "&cGildia o tagu {TAG} nie istnieje!"
 allyAlly: "&cMasz juz sojusz z ta gildia!"
 allySame: "&cNie mozesz nawiazac sojuszu z wlasna gildia!"
 # Available variables: {GUILD}
-allyDone: "&7Nawiazano sojusz z gildia &a{GUILD}&7!"
+allyDone: "&aNawiazano sojusz z gildia {GUILD}"
 # Available variables: {GUILD}
-allyIDone: "&7Gildia &a{GUILD} &7przystapila do sojuszu!"
+allyIDone: "&aGildia {GUILD} przystapila do sojuszu!"
 # Available variables: {GUILD}
-allyReturn: "&7Wycofano zaproszenie do sojuszu dla gildii &c{GUILD}!"
+allyReturn: "&cWycofano zaproszenie do sojuszu dla gildii {GUILD}"
 # Available variables: {GUILD}
-allyIReturn: "&7Gildia &c{GUILD} &7wycofala zaprszenie do sojuszu!"
+allyIReturn: "&cGildia {GUILD} wycofala zaprszenie do sojuszu!"
 # Available variables: {GUILD}
-allyInviteDone: "&7Zaproszono gildie &a{GUILD} &7do sojuszu!"
+allyInviteDone: "&aZaproszono gildie {GUILD} do sojuszu!"
 # Available variables: {GUILD}
-allyToInvited: "&7Otrzymano zaproszenie do sojuszu od gildii &a{GUILD}&7!"
+allyToInvited: "&aOtrzymano zaproszenie do sojuszu od gildii {GUILD}"
 # <------- Break Messages -------> #
 breakHasNotGuild: "&cNie masz gildii!"
-breakIsNotOwner: "&cNie jestes zalozycielem gildii!"
+breakIsNotOwner: "&cNie jestes liderem gildii!"
 breakHasNotAllies: "&cTwoja gildia nie posiada sojuszy!"
 # Available variables: {GUILDS}
 breakAlliesList: 
-- "&7Twoja gildia nawiazala sojusz z &a{GUILDS}"
-- "&7Aby rozwiazac sojusz wpisz &c/rozwiaz [tag]"
+- "&aTwoja gildia nawiazala sojusz z {GUILDS}"
+- "&aWpisz &f/rozwiaz [tag] &aaby rozwiazac sojusz"
 # Available variables: {TAG}
-breakGuildExists: "&7Gildia o tagu &c{TAG} &7nie istnieje!"
+breakGuildExists: "&cGildia o tagu {TAG} nie istnieje!"
 # Available variables: {GUILD}, {TAG}
-breakAllyExists: "&7Twoja gildia nie posiada sojuszu z gildia (&c{TAG}&7&c{GUILD}&7)!"
+breakAllyExists: "&cTwoja gildia nie posiada sojuszu z gildia {GUILD}"
 # Available variables: {GUILD}, {TAG}
-breakDone: "&7Rozwiazano sojusz z gildia &c{GUILD}&7!"
+breakDone: "&cRozwiazano sojusz z gildia {GUILD}"
 # Available variables: {GUILD}, {TAG}
-breakIDone: "&7Gildia &c{GUILD} &7rozwiazala sojusz z Twoja gildia!"
+breakIDone: "&cGildia {GUILD} rozwiazala sojusz z Twoja gildia!"
 # <------- Validity Messages -------> #
 validityHasNotGuild: "&cNie masz gildii!"
-validityIsNotOwner: "&cNie jestes zalozycielem gildii!"
+validityIsNotOwner: "&cNie jestes liderem gildii!"
 # Available variables: {TIME}
-validityWhen: "&7Gildie mozesz przedluzyc dopiero za &c{TIME}&7!"
+validityWhen: "&cGildie mozesz przedluzyc dopiero za {TIME}"
 # Available variables: {ITEM}
-validityItems: "&7Nie masz wystarczajacej liczby przedmiotow! Potrzebujesz &c{ITEM}"
+validityItems: "&cNie masz wystarczajacej liczby przedmiotow! Potrzebujesz &c{ITEM}"
 # Available variables: {DATE}
-validityDone: "&7Waznosc gildii przedluzona do &a{DATE}&7!"
+validityDone: "&aWaznosc gildii przedluzona do {DATE}"
 # <------- Validity Messages -------> #
-warHasNotGuild: "&cMusisz miec gildie, aby zaatkowac inna!"
+warHasNotGuild: "&cMusisz miec gildie, aby zaatakowac inna!"
 warAlly: "&cNie mozesz zaatakowac sojusznika!"
 # Available variables: {TIME}
-warWait: "&7Atak na gildie mozliwy za &4{TIME}"
+warWait: "&cAtak na gildie mozliwy za {TIME}"
 # Available variables: {ATTACKED}
-warAttacker: "&7Twoja gildia pozbawila gildie &4{ATTACKED} &7z &41 zycia&7!"
+warAttacker: "&cTwoja gildia pozbawila gildie {ATTACKED} z 1 zycia!"
 # Available variables: {ATTACKER}
-warAttacked: "&7Twoja gildia stracila &41 zycie &7przez &4{ATTACKER}&7!"
+warAttacked: "&cTwoja gildia stracila 1 zycie przez {ATTACKER}"
 # Available variables: {LOSER}
-warWin: "&7Twoja gildia &apodbila &7gildie &a{LOSER}&7! Zyskujecie &c1 zycie&7!"
+warWin: "&aTwoja gildia podbila gildie {LOSER}"
 # Available variables: {WINNER}
-warLose: "&7Twoja gildia &4przegrala &7wojne z gildia &4{WINNER}&7! &4Gildia zostaje zniszona&7!"
+warLose: "&cTwoja gildia przegrala wojne z gildia {WINNER}"
 # <------- Leader Messages -------> #
 leaderHasNotGuild: "&cNie masz gildii!"
-leaderIsNotOwner: "&cNie jestes zalozycielem gildii"
+leaderIsNotOwner: "&cNie jestes liderem gildii"
 leaderPlayer: "&cPodaj gracza!"
 leaderPlayedBefore: "&cTen gracz nigdy nie byl na serwerze!"
 leaderIsNotMember: "&cTen gracz nie jest czlonkiem Twojej gildii!"
-leaderSet: "&7Ustanowiono nowego &alidera &7gildii!"
-leaderOwner: "&7Zostales nowym &aliderem &7gildii!"
+leaderSet: "&aUstanowiono nowego lidera gildii!"
+leaderOwner: "&aZostales nowym liderem gildii!"
 # <------- Deputy Messages -------> #
 deputyHasNotGuild: "&cNie masz gildii!"
-deputyIsNotOwner: "&cNie jestes zalozycielem gildii"
+deputyIsNotOwner: "&cNie jestes liderem gildii"
 deputyPlayer: "&cPodaj gracza!"
 deputyPlayedBefore: "&cTen gracz nigdy nie byl na serwerze!"
 deputyIsNotMember: "&cTen gracz nie jest czlonkiem Twojej gildii!"
-deputyRemove: "&7Zdegradowno gracza z funkcji &czastepcy&7!"
-deputyMember: "&7Zdegradowano Cie z funkcji &czastepcy&7!"
-deputySet: "&7Ustanowiono nowego &azastepce &7gildii!"
-deputyOwner: "&7Zostales nowym &azastepca &7gildii!"
+deputyRemove: "&cZdegradowno gracza z funkcji zastepcy!"
+deputyMember: "&cZdegradowano Cie z funkcji zastepcy!"
+deputySet: "&aUstanowiono nowego zastepce gildii!"
+deputyOwner: "&aZostales nowym zastepca gildii!"
 # <------- Setbase Messages -------> #
 setbaseHasNotGuild: "&cNie masz gildii!"
-setbaseIsNotOwner: "&cNie jestes zalozycielem gildii!"
+setbaseIsNotOwner: "&cNie jestes liderem gildii!"
 setbaseOutside: "&cNie mozna ustawic domu gildii poza jej terenem!"
-setbaseDone: "&7Przeniesiono &adom &7gildii!"
+setbaseDone: "&aPrzeniesiono dom gildii!"
 # <------- PvP Messages -------> #
 pvpHasNotGuild: "&cNie masz gildii!"
-pvpIsNotOwner: "&cNie jestes zalozycielem gildii!"
-pvpOn: "&cWlaczono &7pvp w gildii!"
-pvpOff: "&aWylaczono &7pvp w gildii!"
+pvpIsNotOwner: "&cNie jestes liderem gildii!"
+pvpOn: "&cWlaczono PvP w gildii!"
+pvpOff: "&aWylaczono PvP w gildii!"
 
